@@ -2,7 +2,7 @@
 
 We’re happy that you’re here and want to learn more about the project structure and our different roles.
 
-To learn about the different contribution pathways you can take, you can read [about how to get started](../getting-started) which has more detail about how you can contribute to the project.
+To learn about the different contribution pathways you can take, you can read [about how to get started](getting-started) which has more detail about how you can contribute to the project.
 
 ## Contributions
 
