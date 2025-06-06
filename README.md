@@ -6,13 +6,18 @@ The FAIR Package Manager Technical Steering Committee is responsible for oversig
 
 Although the TSC is composed of a set of official members listed below, any community member is welcome to participate in the TSC discussions, provided they adhere to the [Code of Conduct](code-of-conduct.md).
 
-Use [GitHub Issues](https://github.com/fairpm/tsc/issues) to request and discuss agenda items.
+We use Github issues and discussions to request and discuss agenda items:
+
+* [GitHub Issues](https://github.com/fairpm/tsc/issues)
+* [Discussions](https://github.com/orgs/fairpm/discussions)
 
 If you need support in any part of the process, please ping the TSC in Slack.
 
 ## Meetings
 
-[TBD]
+Meetings are held weekly.
+
+* [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/fair-package-manager?view=month)
 
 ## TSC Members
 

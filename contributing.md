@@ -1,30 +1,35 @@
-# The Technical Steering Committee and How to Participate
+# Welcome to the FAIR Package Manager GitHub Repository
 
-To learn about the different contribution pathways you can take, you can read [about how to get started](../getting-started) which has more detail about how you can contribute to the project
+We’re happy that you’re here and want to learn more about the project structure and our different roles.
+
+To learn about the different contribution pathways you can take, you can read [about how to get started](../getting-started) which has more detail about how you can contribute to the project.
 
 ## Contributions
 
 There are many ways to contribute to the project. You can:
 
-- Contribute with a pull request  
-- Join a discussion on a ticket  
-- Join a working group  
-- Contribute to documentation  
-- Help with developer engagement  
+- Contribute with a pull request
+- Join a discussion on a ticket
+- Join a working group
+- Contribute to documentation
+- Help with developer engagement
+- Come to a [meeting](https://zoom-lfx.platform.linuxfoundation.org/meetings/fair-package-manager?view=month)
 
 ---
 
 ## Active Working Groups
 
-Active working groups should be listed here. It is the responsibility of the working group **Organizer** to list the project here while it is active.
+Active working groups are listed here. It is the responsibility of the working group **Organizer** to list the project here while it is active.
 
 **Current active working groups are:**
 
 - [Technical Independence](https://github.com/fairpm/fair-plugin) - responsible for developing a solution to independence from the existing central WP server
 - [FAIR](https://github.com/fairpm/fair-protocol) - responsible for the development and operation of The FAIR Package Manager, including server infrastructure, protocol design, and a connector plugin.
-- [Community](https://github.com/fairpm/tsc) - a documentation, governancem and process-focused initiative to support contributor onboarding and clarify how to engage with the FAIR Package Manager project
+- [Community](https://github.com/fairpm/tsc) - a documentation, governance and process-focused initiative to support contributor onboarding and clarify how to engage with the FAIR Package Manager project
 
 Each working group has its own repository for working on its deliverables.
+
+For a list of all groups, past and present, you can read the [Working Groups Documentation](working-groups/README.md)
 
 ---
 
@@ -38,9 +43,9 @@ Signed-off-by: Author Name <authoremail@example.com>
 
 If you're unfamiliar with signing commits, here are some resources:
 
-- [Script it](https://stackoverflow.com/a/46536244/2575)  
-- Cursor/VSCode: go to `Extensions -> Git` and check the option (globally or per project)  
-- CLI:  
+- [Script it](https://stackoverflow.com/a/46536244/2575)
+- Cursor/VSCode: go to `Extensions -> Git` and check the option (globally or per project)
+- CLI:
   ```bash
   git commit -s
   ```
@@ -71,22 +76,22 @@ The TSC governs the project, ensures progress, and adheres to governance practic
 
 ### Composition
 
-- **TSC Chair(s)** – One or three (voting)
-- **Organizers** – Appointed maintainers and leaders (voting)
+- **[TSC Chair(s)](organizers.md#tsc-co-chairs)** – One or three (voting)
+- **[Organizers](organizers.md#tsc-members)** – Appointed maintainers and leaders (voting)
 - **Contributors** – Community members in any capacity (non-voting)
 
 TSC involvement includes all aspects of the project: code, documentation, marketing, accessibility, and more.
 
 ### Responsibilities
 
-- Coordinate project direction  
-- Approve proposals (new ideas, deprecations, scope changes)  
-- Manage sub-projects  
-- Create working groups for technical issues  
-- Appoint collaboration representatives  
-- Define norms, workflows, release, and security policies  
-- Set contribution guidelines and resolve issues with the Series Manager  
-- Vote on multi-project-impacting changes  
+- Coordinate project direction
+- Approve proposals (new ideas, deprecations, scope changes)
+- Manage sub-projects
+- Create working groups for technical issues
+- Appoint collaboration representatives
+- Define norms, workflows, release, and security policies
+- Set contribution guidelines and resolve issues with the Series Manager
+- Vote on multi-project-impacting changes
 - Lead marketing, events, and outreach
 
 ---
@@ -128,10 +133,10 @@ Contributors elevated to leadership roles:
 
 The TSC decides whether to have 1 or 3 chairs. They:
 
-- Run TSC meetings  
-- Ensure voting process adherence  
-- Act as primary liaison with the governing board  
-- May be non-developers  
+- Run TSC meetings
+- Ensure voting process adherence
+- Act as primary liaison with the governing board
+- May be non-developers
 - Cannot all be from the same company (if 3 co-chairs)
 
 > Current TSC Chairs are **interim** until **June 2025**, after which elections will be held.
@@ -140,13 +145,13 @@ The TSC decides whether to have 1 or 3 chairs. They:
 
 ## Voting Process
 
-- Consensus is preferred  
-- When necessary, TSC votes: 1 vote per member  
-- **Quorum**: 50% of voting members required  
-- **Majority vote** to pass decisions  
+- Consensus is preferred
+- When necessary, TSC votes: 1 vote per member
+- **Quorum**: 50% of voting members required
+- **Majority vote** to pass decisions
 - Asynchronous voting allowed with:
   - 50% participation
-  - Clear deadline  
+  - Clear deadline
 - Unresolved issues can be escalated to the **Series Manager**
 
 ---
@@ -155,6 +160,6 @@ The TSC decides whether to have 1 or 3 chairs. They:
 
 We want our project to be **welcoming and inclusive**. All project members must adhere to our Code of Conduct.
 
-👉 **[View the full Code of Conduct here](/../code-of-conduct.md)**
+👉 **[View the full Code of Conduct here](code-of-conduct.md)**
 
 ---
