@@ -27,7 +27,7 @@ Meetings are held weekly.
 | Mika Epstein     | Co-Chair   | `fair@ipstenu.org`             | [TBD]         | March 31 2025 - June 2025    |
 | Ryan McCue       | Co-Chair   | `fair@rmccue.io`               | [TBD]         | March 31 2025 - June 2025    |
 
-For a complete list, see [Membership](https://github.com/fairpm/tsc/tree/main/membership.md)
+For a complete list, see [Organizers](organizers.md)
 
 ## Charter
 
