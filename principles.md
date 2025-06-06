@@ -1,6 +1,7 @@
 # Our Commitment to Open Source Web Publishing
 
-We believe all users should have access to freely available, stable, and secure open source web publishing software.  
+We believe all users should have access to freely available, stable, and secure open source web publishing software.
+
 We will uphold this by following these principles:
 
 **Open Participation & Global Collaboration**
@@ -9,7 +10,7 @@ We will foster an inclusive and diverse community, with contributions from indiv
 
 **Do-ocracy: Decisions Are Made by Those Who Do the Work**
 
-Our community operates as a do-ocracy—day-to-day decisions are made by those who actively participate. Influence is earned through participation, not status or seniority.
+Our community operates as a do-ocracy -- day-to-day decisions are made by those who actively participate. Influence is earned through participation, not status or seniority.
 
 **Transparent & Neutral Governance**
 
@@ -38,7 +39,6 @@ We will prioritise security in the codebase, in the supply chain, and in our gov
 **Sustainable Open Source**
 
 We ensure long-term sustainability by balancing free access to stable web-publishing software  with a responsible funding and governance model.
-
 
 **Decentralized & Federated Infrastructure**
 
