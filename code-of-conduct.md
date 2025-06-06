@@ -1,11 +1,11 @@
 # Code of Conduct
 
 ---
-status: "proposed"
-date: 2025-04-29
+status: "accepted"
+date: 2025-06-06
 ---
 
-Effective: `{{DATE_TBD}}`
+Effective: `2025-05-15`
 
 As part of LF Projects, LLC (“LF Projects”), The FAIR Package Manager takes on all activities and behaviors that are consistent with the LF Projects mission and purpose.
 
