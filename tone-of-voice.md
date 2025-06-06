@@ -1,4 +1,4 @@
-# ✍️ Documentation Tone of Voice 
+# ✍️ Documentation Tone of Voice
 
 This tone of voice guide helps you to write documentation that reflects the values and personality of the FAIR Package Manager Project. Clear, inclusive, and supportive documentation ensures everyone, from newcomers to experts, can confidently understand, use, and contribute to the project.
 
@@ -39,10 +39,10 @@ This tone of voice guide helps you to write documentation that reflects the valu
 
 The reader may be:
 
-- New to open source  
-- Unfamiliar with your environment  
-- Using a screen reader  
-- On a slow or unstable internet connection  
+- New to open source
+- Unfamiliar with your environment
+- Using a screen reader
+- On a slow or unstable internet connection
 
 ---
 
@@ -51,12 +51,12 @@ The reader may be:
 Our documentation should feel accessible to people of all backgrounds, levels, and abilities. Small choices in language can have a big impact on inclusion.
 
 - **Use gender-neutral pronouns** (they/them) unless a person's pronouns are specified.
-- **Avoid idioms and metaphors**—they often don’t translate well.  
-  - ❌ “Hit the ground running”  
+- **Avoid idioms and metaphors**—they often don’t translate well.
+  - ❌ “Hit the ground running”
   - ✅ “Start contributing quickly”
-- **Avoid gatekeeping or assumed knowledge**.  
-  - ❌ “Obviously…”  
-  - ❌ “Simple task…”  
+- **Avoid gatekeeping or assumed knowledge**.
+  - ❌ “Obviously…”
+  - ❌ “Simple task…”
   - ✅ “If you're new to this, here's where to start.”
 - **Prefer inclusive technical terms** where possible:
   - ✅ “Allowlist/Blocklist” instead of “Whitelist/Blacklist”
@@ -86,10 +86,10 @@ git clone https://github.com/FAIR/your-repo-name
 
 - **Headings**: Use a clear hierarchy (`##`, `###`, etc.)
 - **Lists**: Use bullet or numbered lists for steps or options
-- **Callouts**:  
+- **Callouts**:
 
-  > **Note:** For helpful context  
-  > **Warning:** For potential issues  
+  > **Note:** For helpful context
+  > **Warning:** For potential issues
   > **Tip:** For optional but useful enhancements
 ---
 
@@ -104,11 +104,11 @@ git clone https://github.com/FAIR/your-repo-name
 
 ## ✅ Tone in Action: Before and After
 
-| Before                                | After                                                  |
-|---------------------------------------|---------------------------------------------------------|
-| “You must run this or it won’t work.” | “Run this command to start the process.”               |
-| “Only advanced users should try this.”| “This step requires some familiarity with Docker.”     |
-| “Just clone the repo and go.”         | “Start by cloning the repository using the command below.” |
+| Before                                 | After                                                      |
+|----------------------------------------|-------------------------------------------------------------|
+| “You must run this or it won’t work.”  | “Run this command to start the process.”                   |
+| “Only advanced users should try this.” | “This step requires some familiarity with Docker.”         |
+| “Just clone the repo and go.”          | “Start by cloning the repository using the command below.” |
 
 ---
 

@@ -1,8 +1,8 @@
 # TSC FAQ
 
 ---
-status: "in progress"
-date: 2025-04-23
+status: "ongoing"
+date: 2025-06-06
 ---
 
 ## Why is this a "technical" steering committee?
