@@ -8,6 +8,7 @@ Although the TSC is composed of a set of official members listed below, any comm
 
 We use Github issues and discussions to request and discuss agenda items:
 
+* [Frequently Asked Questions](./faqs/README.md)
 * [GitHub Issues](https://github.com/fairpm/tsc/issues)
 * [Discussions](https://github.com/orgs/fairpm/discussions)
 

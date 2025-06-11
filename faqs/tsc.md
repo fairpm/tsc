@@ -1,8 +1,8 @@
-# TSC FAQ
+# Frequently Asked Questions about the TSC
 
 ---
 status: "ongoing"
-date: 2025-06-06
+date: 2025-06-11
 ---
 
 ## Why is this a "technical" steering committee?
@@ -69,11 +69,3 @@ As long as they’re in compliance with our [Code of Conduct (CoC)](/code-of-con
 You can say no.
 
 We promise, it’s that easy.
-
-## Does the Code of Conduct apply to all groups?
-
-Yes it does. No one is above the Code of Conduct.
-
-## Why is the Code of Conduct written in legalese?
-
-A great number of community projects use a very casual, easy to read, Code of Conduct. There's nothing wrong with that, however in order to be a part of the Linux Foundation, we were required to adopt a Code of Conduct that meets their requirements. While it does create a new hurdle for contributors, it also serves a long term benefit of demonstrating to the global open source world that we take this seriously and with the proper attention.
