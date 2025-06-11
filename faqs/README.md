@@ -1,8 +1,8 @@
-# FAIR Project FAQs
+# FAIR Project Frequently Asked Questions
 
-This folder contains focused answers to the most common questions about the FAIR project, its governance, security, and technical operations. Each file addresses a specific area. Read the relevant file for direct answers—no filler, just facts.
+Focused answers to the most common questions about the FAIR project, its governance, security, and technical operations.
 
-## FAQ Index
+## Index
 
 - **[Plugin and Protocols](./plugin-protocols.md)**: How to use the FAIR plugin, distribution process, analytics/telemetry, and review/rating systems.
 - **[Project Governance](./project.md)**: Project governance, transparency, user trust, confidentiality, and the Code of Conduct.
@@ -11,5 +11,5 @@ This folder contains focused answers to the most common questions about the FAIR
 
 ## Contributing or Suggesting FAQs
 
-If you have a question not covered here, open an issue or pull request, or post in the [ideas forum](https://github.com/orgs/fairpm/discussions/categories/ideas).
+If you have a question not covered here, please open an issue or pull request, or post in the [ideas forum](https://github.com/orgs/fairpm/discussions/categories/ideas).
 
