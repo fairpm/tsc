@@ -7,6 +7,7 @@ Focused answers to the most common questions about the FAIR project, its governa
 - **[Plugin and Protocols](./plugin-protocols.md)**: How to use the FAIR plugin, distribution process, analytics/telemetry, and review/rating systems.
 - **[Project Governance](./project.md)**: Project governance, transparency, user trust, confidentiality, and the Code of Conduct.
 - **[Security](./security.md)**: Security and reliability of FAIR, DDoS risk, mirroring, and comparison to centralized hosting.
+- **[Privacy & GDPR](./privacy.md)**: How FAIR reduces tracking, decentralizes data, and improves privacy and GDPR compliance.
 - **[Technical Steering Committee](./tsc.md)**: Technical Steering Committee (TSC) structure, roles, working groups, and how contributors/organizers fit in.
 
 ## Contributing or Suggesting FAQs
