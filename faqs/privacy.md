@@ -7,7 +7,7 @@ date: 2025-06-11
 
 ## What does FAIR track?
 
-By default, the FAIR WordPress plugin tracks nothing. There are, however, services that the plugin uses to help support it's features. You can read more about that in the plugin [Readme file](https://github.com/fairpm/fair-plugin/blob/main/README.md#data-privacy)
+By default, the FAIR WordPress plugin tracks nothing. There are, however, services that the plugin uses to help support its features. You can read more about that in the plugin [Readme file](https://github.com/fairpm/fair-plugin/blob/main/README.md#data-privacy)
 
 ## How does FAIR impact user privacy?
 
