@@ -9,6 +9,10 @@ FAIR is a project under the Linux Foundation, with an [open charter with open go
 
 ## General Questions
 
+### What does FAIR stand for?
+
+FAIR is an acronym for "**F**ederated **a**nd **I**ndependent **R**epositories."
+
 ### Why should we trust the FAIR project?
 
 The FAIR project's core team includes experienced and respected contributors from the broader WordPress community. FAIR is governed transparently under the Linux Foundation, with open participation and independent oversight through the Technical Steering Committee (TSC).
