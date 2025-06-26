@@ -54,3 +54,9 @@ This includes the design of the decentralized protocol, design and operation of 
 It also includes the installable connector plugin, which is expected to exist as a module within the plugin created by the Independence WG. The Independence WG will create the plugin initially, however long-term maintenance will transition to The FAIR WG upon that WG’s completion.
 
 **The FAIR WG is a permanent Working Group.**
+
+### Website Management
+
+The Website Management Working Group is focused on building and maintaining the technical foundation of the FAIR Package Manager for WordPress project website and its wider network of related sites. This includes implementation frameworks, wireframes, accessibility, technical SEO, and scalable content architecture.
+
+**The Website Management WG is a permanent Working Group.**

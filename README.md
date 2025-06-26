@@ -47,6 +47,7 @@ See [Working Groups](https://github.com/fairpm/tsc/tree/main/working-groups)
 | Community                      | [GitHub](https://github.com/fairpm/tsc/tree/main/working-groups/community) | Permanent         | In Progress |
 | FAIR                           | [TBD]                                       | Permanent         | In Progress |
 | Tech Independence              | [TBD]                                       | Temp (due June 5) | In Progress |
+| Website Management             | [GitHub](https://github.com/fairpm/tsc/tree/main/working-groups/website-management) | Permanent         | In Progress |
 
 ### Projects
 
