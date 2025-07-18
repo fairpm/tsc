@@ -110,7 +110,7 @@ Anyone contributing in any form, including:
 - Architecture
 - Support
 
-> Contributors are **non-voting members** of the TSC.
+> Contributors to the technical project are not TSC members.
 
 ### Organizer
 
@@ -122,12 +122,15 @@ Contributors elevated to leadership roles:
 **Becoming an Organizer:**
 
 - Requires majority approval of existing Organizers
+- An existing Organizer can nominate a Contributor
+- Nominee must accept nomination
+- Consensus is preferred, but a vote can be called if necessary
 
 **Removal:**
 
 - Requires majority vote of existing Organizers
 
-> Voting rights limited: related companies can only use up to **30%** of the TSC’s total votes.
+> Voting rights limited: related companies can only use up to **30%** of the TSC’s total votes per our [Charter](charter.md).
 
 ### TSC Chairs
 
@@ -139,7 +142,23 @@ The TSC decides whether to have 1 or 3 chairs. They:
 - May be non-developers
 - Cannot all be from the same company (if 3 co-chairs)
 
-> Current TSC Chairs are **interim** until **June 2025**, after which elections will be held.
+#### Nominations
+
+- Nominations for TSC Chair(s) are open to all Organizers
+- Interested persons may nominate themselves
+- Nominations are facilitated by the Linux Foundation ([example](https://github.com/orgs/fairpm/discussions/43))
+
+#### Term Limits and Rotation
+
+To ensure continuity and stable leadership, Co-Chair terms are staggered as follows:
+
+* All Co-Chair positions serve a three-year term
+* To establish staggered terms:
+  * The initial three Co-Chairs will serve 1-, 2-, and 3-year terms, as agreed upon among themselves
+  * After the first year, one Co-Chair will rotate off and a new one will be elected annually
+* This rotation ensures:
+  * Only one Co-Chair changes each year
+  * At least two experienced Co-Chairs remain at all times
 
 ---
 
