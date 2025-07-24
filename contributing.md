@@ -124,7 +124,8 @@ Contributors elevated to leadership roles:
 - Requires majority approval of existing Organizers
 - An existing Organizer can nominate a Contributor
 - Nominee must accept nomination
-- Consensus is preferred, but a vote can be called if necessary
+- When possible, nominations are approved by [lazy consensus](https://www.apache.org/foundation/glossary.html#LazyConsensus)—if no objections are raised within 5 business days, the nomination moves forward
+- If objections are raised, a vote will be held
 
 **Removal:**
 
@@ -156,7 +157,7 @@ To ensure continuity and stable leadership, Co-Chair terms are staggered as foll
 * To establish staggered terms:
   * The initial three Co-Chairs will serve 1-, 2-, and 3-year terms, as agreed upon among themselves
   * After the first year, one Co-Chair will rotate off and a new one will be elected annually
-* This rotation ensures:
+* This rotation helps preserve stability by ensuring:
   * Only one Co-Chair changes each year
   * At least two experienced Co-Chairs remain at all times
 
