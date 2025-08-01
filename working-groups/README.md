@@ -35,16 +35,6 @@ The Community Working Group (CWG) is a documentation and process-focused initiat
 
 - [Community WG](./community/)
 
-### Technical Independence
-
-The Technical Independence Working Group is responsible for developing a solution to independence from the existing central WP server.
-
-This includes a replacement central server, a plugin to connect existing WP sites to this server, and the creation of tools to package and maintain a distribution of WP including this plugin. These are as outlined in the previously-created Timeline and Goals document; specifically, Phase 1 (“Drop-In Mirror”) and Phase 2 (“Sever Connection”).
-
-The plugin created by the Technical Independence WG is to be created in a modular way, so that the plugin and tooling can be used by The FAIR WG.
-
-**The Technical Independence WG is time- and scope-limited to the development of this solution. Once the solution is created, long-term maintenance of the plugin and any server components will transition to The FAIR WG. The Technical Independence WG shall complete its work prior to June 5, aiming for May 5 for a usable MVP of its work.**
-
 ### FAIR
 
 The FAIR Working Group is responsible for the development and operation of The FAIR Package Manager, including server infrastructure, protocol design, and a connector plugin.
@@ -55,8 +45,31 @@ It also includes the installable connector plugin, which is expected to exist as
 
 **The FAIR WG is a permanent Working Group.**
 
+### AspireCloud
+The AspireCloud Working Group is responsible for the development and maintenance of AspireCloud, a standalone API server that acts as a bridge between the legacy WordPress plugin repository and the emerging FAIR protocol ecosystem.
+
+AspireCloud currently indexes a local copy of the WordPress.org plugin repository and exposes that data via a custom API. The group is now extending AspireCloud to support the FAIR protocol in addition to the traditional WordPress API, enabling unified search and discovery across both systems.
+
+This work is seen as a critical transitional layer to support adoption of the FAIR Package Manager by maintaining compatibility with existing workflows while introducing a more modern and federated package model.
+
+AspireCloud is built with Laravel and PostgreSQL.
+
+**The AspireCloud WG is a permanent Working Group.**
+
 ### Website Management
 
 The Website Management Working Group is focused on building and maintaining the technical foundation of the FAIR Package Manager for WordPress project website and its wider network of related sites. This includes implementation frameworks, wireframes, accessibility, technical SEO, and scalable content architecture.
 
 **The Website Management WG is a permanent Working Group.**
+
+## Past Working Groups
+
+### Technical Independence
+
+The Technical Independence Working Group is responsible for developing a solution to independence from the existing central WP server.
+
+This includes a replacement central server, a plugin to connect existing WP sites to this server, and the creation of tools to package and maintain a distribution of WP including this plugin. These are as outlined in the previously-created Timeline and Goals document; specifically, Phase 1 (“Drop-In Mirror”) and Phase 2 (“Sever Connection”).
+
+The plugin created by the Technical Independence WG is to be created in a modular way, so that the plugin and tooling can be used by The FAIR WG.
+
+**The Technical Independence WG is time- and scope-limited to the development of this solution. Once the solution is created, long-term maintenance of the plugin and any server components will transition to The FAIR WG. The Technical Independence WG shall complete its work prior to June 5, aiming for May 5 for a usable MVP of its work.**
