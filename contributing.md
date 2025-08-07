@@ -19,17 +19,7 @@ There are many ways to contribute to the project. You can:
 
 ## Active Working Groups
 
-Active working groups are listed here. It is the responsibility of the working group **Organizer** to list the project here while it is active.
-
-**Current active working groups are:**
-
-- [Technical Independence](https://github.com/fairpm/fair-plugin) - responsible for developing a solution to independence from the existing central WP server
-- [FAIR](https://github.com/fairpm/fair-protocol) - responsible for the development and operation of The FAIR Package Manager, including server infrastructure, protocol design, and a connector plugin.
-- [Community](https://github.com/fairpm/tsc) - a documentation, governance and process-focused initiative to support contributor onboarding and clarify how to engage with the FAIR Package Manager project
-
-Each working group has its own repository for working on its deliverables.
-
-For a list of all groups, past and present, you can read the [Working Groups Documentation](working-groups/README.md)
+For a list of active working groups, please see the [Working Groups README](working-groups/README.md#active-working-groups)
 
 ---
 
