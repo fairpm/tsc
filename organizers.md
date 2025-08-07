@@ -18,6 +18,7 @@ In addition to the co-chairs, the following Organizers are members of the TSC:
 | Name | GH Handle | Affiliation | 
 |------|-----------|-------------|
 | Andy Fragen | [@afragen](https://github.com/afragen)| Self |
+| Austin Meakin | [@AmnestyAM](https://github.com/AmnestyAM) | Amnesty International |
 | Ben Rubin | [@notarealemail](https://github.com/notarealemail) | Self |
 | Brent Toderash | [@toderash](https://github.com/toderash) | Self |
 | Chuck Adams | [@chuckadams](https://github.com/chuckadams) | AspirePress| 
@@ -32,8 +33,10 @@ In addition to the co-chairs, the following Organizers are members of the TSC:
 | Javier Casares | [@javiercasares](https://github.com/javiercasares) | Self |
 | Joe Dolson | [@joedolson](https://github.com/joedolson) | Self |
 | Joost de Valk | [@jdevalk](https://github.com/jdevalk) | Emilia Capital |
+| Matt Leach | [@mattleach89](https://github.com/mattleach89) | OtherHalf Digita / Salad Creative |
 | Karim Marucchi | [@pirazo](https://github.com/pirazo)| Crowd Favorite |
 | Kevin Cristiano | [@kcristiano](https://github.com/kcristiano) | Self |
+| Namith Jawahar | [@namithj](https://github.com/namithj) | Self |
 | Andrew Norcross | [@norcross](https://github.com/norcross) | Self |
 | Pascal Birchler | [@swissspidy](https://github.com/swissspidy)  | Self |
 | Pat Ramsey | [@ramseyp](https://github.com/ramseyp) | Self |
@@ -45,4 +48,5 @@ In addition to the co-chairs, the following Organizers are members of the TSC:
 | Shadi Sharaf | [@shadyvb](https://github.com/shadyvb) | Self |
 | Siobhan McKeown | [@smckeown](https://github.com/smckeown) | Self |
 | Taco Verdonschot | [@tacoverdo](https://github.com/tacoverdo) | Emilia Capital |
-| Timi Wahalahti | [@timiwahalahti](https://github.com/timiwahalahti) | Self | 
+| Timi Wahalahti | [@timiwahalahti](https://github.com/timiwahalahti) | Self |
+| Veerle Verbert | [@verlev](https://github.com/verlev) | Self |
