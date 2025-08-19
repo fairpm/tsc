@@ -1,5 +1,7 @@
 The AspireCloud Working Group maintains AspireCloud, a standalone API server that bridges the legacy WordPress plugin repository and the FAIR protocol ecosystem.
 
+This working group was formed in collaboration with [AspirePress](https://aspirepress.org), who began development of AspireCloud in October 2024—prior to the formation of the FAIR Project. Future development of certain AspirePress projects will continue under the FAIR umbrella, with original naming retained in recognition of the AspirePress team’s early work. Many of those contributors remain active within the FAIR project today.
+
 This working group is hosted by The FAIR Package Manager for WordPress Technical Steering Committee (TSC).
 
 We follow The FAIR Package Manager [Code of Conduct](../../code-of-conduct.md).

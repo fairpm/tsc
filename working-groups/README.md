@@ -30,6 +30,17 @@ A [sample meeting notes template](https://github.com/fairpm/tsc/tree/main/workin
 
 ## Active Working Groups
 
+### AspireCloud
+The AspireCloud Working Group is responsible for the development and maintenance of AspireCloud, a standalone API server that acts as a bridge between a mirror of the legacy WordPress plugin repository and the emerging FAIR protocol ecosystem.
+
+AspireCloud currently indexes a mirror of the WordPress.org plugin repository and exposes that data via a custom API. The group is now extending AspireCloud to support the FAIR protocol in addition to the traditional WordPress API, enabling unified search and discovery across both systems.
+
+This work is seen as a critical transitional layer to support adoption of the FAIR Package Manager by maintaining compatibility with existing workflows while introducing a more modern and federated package model.
+
+AspireCloud is built with Laravel and PostgreSQL.
+
+**The AspireCloud WG is a permanent Working Group.**
+
 ### Community
 The Community Working Group (CWG) is a documentation and process-focused initiative to support contributor onboarding and clarify how to engage with the FAIR Package Manager project.
 
@@ -44,17 +55,6 @@ This includes the design of the decentralized protocol, design and operation of 
 It also includes the installable connector plugin, which is expected to exist as a module within the plugin created by the Independence WG. The Independence WG will create the plugin initially, however long-term maintenance will transition to The FAIR WG upon that WG’s completion.
 
 **The FAIR WG is a permanent Working Group.**
-
-### AspireCloud
-The AspireCloud Working Group is responsible for the development and maintenance of AspireCloud, a standalone API server that acts as a bridge between the legacy WordPress plugin repository and the emerging FAIR protocol ecosystem.
-
-AspireCloud currently indexes a local copy of the WordPress.org plugin repository and exposes that data via a custom API. The group is now extending AspireCloud to support the FAIR protocol in addition to the traditional WordPress API, enabling unified search and discovery across both systems.
-
-This work is seen as a critical transitional layer to support adoption of the FAIR Package Manager by maintaining compatibility with existing workflows while introducing a more modern and federated package model.
-
-AspireCloud is built with Laravel and PostgreSQL.
-
-**The AspireCloud WG is a permanent Working Group.**
 
 ### Website Management
 
