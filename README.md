@@ -42,20 +42,29 @@ At this time, Technical Initiatives are limited to our Working Groups.
 
 See [Working Groups](https://github.com/fairpm/tsc/tree/main/working-groups)
 
-| Name                           | Repository                                  | Type (due)        | Status      |
-| ------------------------------ | ------------------------------------------- | ----------------- | ----------- |
+| Name                           | Repository                                  | Type (due)            | Status      |
+| ------------------------------ | ------------------------------------------- | --------------------- | ----------- |
 | Community                      | [GitHub](https://github.com/fairpm/tsc/tree/main/working-groups/community) | Permanent         | In Progress |
-| FAIR                           | [TBD]                                       | Permanent         | In Progress |
-| Tech Independence              | [TBD]                                       | Temp (due June 5) | In Progress |
+| FAIR                           | [TBD]                                       | Permanent             | In Progress |
+| Tech Independence              | [TBD]                                       | Temp (Due 2025-06-05) | In Progress |
 | Website Management             | [GitHub](https://github.com/fairpm/tsc/tree/main/working-groups/website-management) | Permanent         | In Progress |
+| AspireCloud                    | [TBD]                                       | Permanent             | In Progress |
+| Infrastructure                 | [TBD]                                       | Permanent             | In Progress |
+| Trust                          | [TBD]                                       | Permanent             | In Progress |
 
 ### Projects
 
-| Name                   | Repository                                            | Tracking                                               | Sponsoring Org    | Status      |
+| Name                   | Repository                                            | Tracking                                               | Sponsoring WG     | Status      |
 | ---------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------- | ----------- |
-| FAIR Protocol          | [GitHub](https://github.com/fairpm/fair-protocol/) |                                                        | FAIR              | Planning    |
-| Tech Ind. Plugin       | [GitHub](https://github.com/fairpm/plugin/)        | [Github](https://github.com/orgs/fairpm/projects/1) | Tech Independence | In Progress |
-
+| FAIR Protocol          | [GitHub](https://github.com/fairpm/fair-protocol/)    |                                                        | FAIR              | Planning    |
+| FAIR Plugin (Tech Ind) | [GitHub](https://github.com/fairpm/plugin/)           | [Github](https://github.com/orgs/fairpm/projects/1)    | Tech Independence; Maintained by FAIR WG | In Progress |
+| Mini-FAIR Repo Plugin  |           |     | FAIR | In Progress |
+| AspireCloud            |     |                                                        | AspireCloud              | In Progress    |
+| WP Mirror Repository   |     |                                                        | AspireCloud              | In Progress    |
+| Website                |     |                                                        | Website Management       | In Progress    |
+| Infrastructure         |     |                                                        | Infrastructure           | In Progress    |
+| Trust Labeller         |     |                                                        | Trust                    | Planning       |
+| Planet                 |     |                                                        | Community                | In Progress    |
 
 ## License
 
