@@ -9,7 +9,7 @@ Effective: `2025-05-15`
 
 As part of LF Projects, LLC (“LF Projects”), The FAIR Package Manager takes on all activities and behaviors that are consistent with the LF Projects mission and purpose.
 
-The Code of Conduct aims to support a community where all people should feel safe to participate, introduce new ideas and inspire others, regardless of regardless of age, background, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, geographic location, personal appearance, race, caste, color, religion, sexual identity and orientation, or other dimension of diversity.
+The Code of Conduct aims to support a community where all people should feel safe to participate, introduce new ideas and inspire others, regardless of age, background, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, geographic location, personal appearance, race, caste, color, religion, sexual identity and orientation, or other dimension of diversity.
 
 ## Introduction
 
