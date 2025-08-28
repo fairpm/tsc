@@ -1,36 +1,87 @@
-# The FAIR Package Manager - Working Groups
+# FAIR Project: Working Group Lifecycle Policy
 
-Working Groups (“WGs”) are autonomous projects created by the Technical Steering Committee (TSC).
+## Purpose
 
-Working Groups can be formed at any time but must be ratified by the TSC. Once formed the work defined in the Working Group charter is the responsibility of the WG rather than the TSC.
+This document defines a lightweight process for proposing, approving, operating, and retiring Working Groups under the FAIR Technical Steering Committee (TSC).  
 
-As the TSC Charter is intended as a temporary charter, any Working Groups formed under the charter are similarly temporary. When a permanent TSC Charter is created, any prior Working Groups must be ratified by the TSC under the terms of the new TSC Charter.
+Working Groups (“WGs”) are autonomous initiatives created by the Technical Steering Committee (TSC). Working groups are more fluid than projects and may dissolve once their goals are achieved.
 
-When the work defined in a Working Group's charter is complete, the charter will be dissolved (revoked) unless there is a reason to extend it to a permanent Working Group.
+The TSC will periodically review each WG to decide whether it should remain as a WG or adopt an alternative structure.
 
-A Working Group's charter can be revoked either by consent of the Working Group's members or by a TSC vote. Once revoked, any future work that arises becomes the responsibility of the TSC.
+## Proposing A New Working Group
 
-## Starting A Working Group
+- **Who Can Propose**  
+  Any active contributor may propose the creation of a WG.
 
-A Working Group is established by the TSC, with a statement of purpose and a list of responsibilities. The list of responsibilities should be specific. Each Working Group is self-governed under the standard governance below.
+- **Proposal Requirements**  
+  Each proposal must include:
+  1. Name / Title  
+  2. Scope (what the group will address)  
+  3. Objectives & Deliverables  
+  4. Initial Membership (lead(s) and core participants)  
+  5. Timeline or milestones (if applicable)  
 
-## Governance Rules for Working Groups
+- **Submission**  
+  Proposals are filed as GitHub issues in the [`fairpm/tsc`](https://github.com/fairpm/tsc) repository with the label `wg-proposal`.
 
-The following is a temporary set of governance rules for each Working Group. It is the intention that under a future TSC Charter, working groups shall have the ability to self-govern.
+## Review & Approval
 
-Each Working Group should copy the [`sample-readme.md`](https://github.com/fairpm/tsc/tree/main/working-groups/sample-readme.md) file as a template and place it within their designated subfolder under `/working-groups/` in the this repository (e.g., `/working-groups/community/README.md`). This file serves as the project “front door” for the Working Group and should be customized with the relevant details in `{}`. If the Working Group operates from a separate repository, the file should instead be placed in that repository’s main README or equivalent homepage.
+- **Evaluation Criteria**  
+  - Relevance to FAIR project goals  
+  - Clarity of objectives  
+  - Feasibility (time, scope, resources)  
+  - Membership and leadership
 
-Working Groups have a high degree of flexibility in how they work, but the following should remain consistent across all groups:
+- **Decision Process**  
+  - The TSC reviews the proposal in a meeting or asynchronously via GitHub.  
+  - A simple majority vote is required for approval.  
+  - Decision and rationale are documented in the proposal issue. 
 
-* All TSC policies, including the Code of Conduct and Licensing policies must be included by reference;
-* Workspaces for all Working Groups, such as Slack channels, forums, mailing lists or other spaces must be posted centrally for easy access;
-* All Working Groups must share details on how someone can contribute to them;
+
+## Operations & Tracking
+
+- **Dedicated Repository**  
+  Approved WGs will normally receive their own repository under the FAIR GitHub organization, named `wg-<name>` (e.g., `wg-docs`).  
+
+- **Tracking Requirements**  
+  - Agendas, meeting notes, status reports, and deliverables stored in the WG repo. 
+  - Work items tracked via GitHub issues and project boards.  
+
+- **Communication**  
+  Optional Slack channels or mailing lists may be created, but GitHub is the system of record.
+
+
+## Review & Sunset
+
+- **Periodic Review**  
+  Every 6 months, each WG must review its purpose, progress, and continued relevance.  
+
+- **Dormancy**  
+  If a WG is inactive for 3 months, it will be marked *Dormant*.  
+
+- **Dissolution**  
+  When objectives are complete or no longer relevant, the WG may be dissolved by consensus of its members or by TSC decision.  
+  - Leads must post a closing summary in the README of the project.  
+  - Repositories or project boards will be archived.  
+
+---
+
+## Governance 
+
+- All working groups operate under the authority of the FAIR TSC and Technical Charter.  
+- Each working group should have a copy of the [`sample-readme.md`](https://github.com/fairpm/tsc/tree/main/working-groups/sample-readme.md) in their repo, it can be expanded as needed.
+
+Working Groups have a high degree of flexibility in how they work, but the following is required:
+- All TSC policies, including the Code of Conduct and Licensing policies must be included by reference.
+- Workspaces for all Working Groups, such as Slack channels, forums, mailing lists or other spaces must be posted centrally for easy access.
+- All Working Groups must share details on how someone can contribute to them.
 
 A [sample meeting notes template](https://github.com/fairpm/tsc/tree/main/working-groups/sample-meeting-notes.md) is available.
 
 ## Active Working Groups
 
 ### AspireCloud
+
 The AspireCloud Working Group is responsible for the development and maintenance of AspireCloud, a standalone API server that acts as a bridge between a mirror of the legacy WordPress plugin repository and the emerging FAIR protocol ecosystem.
 
 AspireCloud currently indexes a mirror of the WordPress.org plugin repository and exposes that data via a custom API. The group is now extending AspireCloud to support the FAIR protocol in addition to the traditional WordPress API, enabling unified search and discovery across both systems.
@@ -42,6 +93,7 @@ AspireCloud is built with Laravel and PostgreSQL.
 **The AspireCloud WG is a permanent Working Group.**
 
 ### Community
+
 The Community Working Group (CWG) is a documentation and process-focused initiative to support contributor onboarding and clarify how to engage with the FAIR Package Manager project.
 
 - [Community WG](./community/)
