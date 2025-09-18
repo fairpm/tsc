@@ -1,6 +1,8 @@
+## About the Website Management Working Group
+
 The Website Management Working Group is focused on building and maintaining the technical foundation of the FAIR Package Manager for WordPress project website and its wider network of related sites. This includes implementation frameworks, wireframes, accessibility, technical SEO, and scalable content architecture.
 
-The Website Management Working Group is hosted by The FAIR Package Manager for WordPress Technical Steering Committee (TSC).
+This working group is hosted by The FAIR Package Manager for WordPress Technical Steering Committee (TSC).
 
 We follow The FAIR Package Manager [Code of Conduct](../../code-of-conduct.md).
 
@@ -26,6 +28,12 @@ Work will proceed in two major phases:
 * Longer-Term Architectural Phase – Focus on maintainable network-wide architecture, theme structure, and extensibility
 
 All development using WordPress will occur within the existing WordPress multisite environment already provisioned for the project. No new infrastructure setup is needed for WordPress.
+
+## Github Repositories
+- https://github.com/fairpm/website-content
+- https://github.com/fairpm/server
+- https://github.com/fairpm/fair-parent-theme
+- https://github.com/fairpm/fair-child-theme
 
 ## 📌 Current Tasks
 

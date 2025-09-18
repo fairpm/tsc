@@ -1,6 +1,8 @@
+## About the Community Working Group
+
 The Community Working Group (CWG) is a documentation and process-focused initiative to support contributor onboarding and clarify how to engage with FAIR Package Manager for WordPress project.
 
-The CWG is hosted by The FAIR Package Manager for WordPress Technical Steering Committee (TSC).
+The working group is hosted by The FAIR Package Manager for WordPress Technical Steering Committee (TSC).
 
 We follow The FAIR Package Manager [Code of Conduct](../../code-of-conduct.md).
 
