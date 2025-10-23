@@ -129,10 +129,6 @@ Those in leadership positions are responsible for clarifying and enforcing our s
 
 ### Reporting Incidents
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at
-
-[CONTACT METHOD]
-
 All incidents will be reported via email to the Manager of LF Projects, Mike Dolan (`manager@lfprojects.org`). They will include any available relevant information, including links to any publicly accessible material relating to the matter. Every effort will be taken to ensure a safe and collegial environment in which to collaborate on matters relating to the Project.
 
 In order to protect the community, the Project reserves the right to take appropriate action, potentially including the removal of an individual from any and all participation in the project. The Project will work towards an equitable resolution in the event of a misunderstanding.
