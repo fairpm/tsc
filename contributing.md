@@ -23,15 +23,15 @@ For a list of active working groups, please see the [Working Groups README](work
 
 ---
 
-## Code Signing
+## Code Signoff
 
-When committing code to a Project repository, you need to sign your commits by adding this to your commit messages:
+When committing code to a Project repository, you need to sign off on your commits by adding this to your commit messages:
 
 ```
 Signed-off-by: Author Name <authoremail@example.com>
 ```
 
-If you're unfamiliar with signing commits, here are some resources:
+If you're unfamiliar with commit sign-off, here are some resources:
 
 - [Script it](https://stackoverflow.com/a/46536244/2575)
 - Cursor/VSCode: go to `Extensions -> Git` and check the option (globally or per project)
