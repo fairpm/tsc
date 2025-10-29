@@ -129,7 +129,7 @@ Those in leadership positions are responsible for clarifying and enforcing our s
 
 ### Reporting Incidents
 
-All incidents will be reported via email to the Manager of LF Projects, Mike Dolan (`manager@lfprojects.org`). They will include any available relevant information, including links to any publicly accessible material relating to the matter. Every effort will be taken to ensure a safe and collegial environment in which to collaborate on matters relating to the Project.
+All incidents will be reported via email to **manager@lfprojects.org**. They will include any available relevant information, including links to any publicly accessible material relating to the matter. Every effort will be taken to ensure a safe and collegial environment in which to collaborate on matters relating to the Project.
 
 In order to protect the community, the Project reserves the right to take appropriate action, potentially including the removal of an individual from any and all participation in the project. The Project will work towards an equitable resolution in the event of a misunderstanding.
 
