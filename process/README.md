@@ -10,6 +10,9 @@ This folder contains the policies and procedures The FAIR Package Manager TSC us
 
 ## Roles & Responsibilities
 
+## Release Management
+- [Release Names](./release-names.md)
+
 ## Election Process
 - [Elections Folder](https://github.com/fairpm/tsc/tree/main/elections) - contains documentation and historic election results
 
