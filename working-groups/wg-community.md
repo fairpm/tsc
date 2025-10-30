@@ -14,6 +14,16 @@ This group welcomes contributions from any member of our community. To get start
 
 This Working Group is intended to be evergreen. Its scope may evolve over time to meet the needs of the project and the direction set by the TSC.
 
+## Slack Moderators
+
+Slack moderators have access to a private channel where all /report-behavior reports are sent and reviewed confidentially.
+
+- [@bensternthal](https://github.com/bensternthal)
+- [@cdils](https://github.com/cdils)
+- [@Ipstenu](https://github.com/Ipstenu)
+- [@tacoverdo](https://github.com/tacoverdo)
+
+
 ## 📌 Current Tasks
 
 ### 🗓️ Active Projects (Time-Scoped)
