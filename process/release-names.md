@@ -1,6 +1,6 @@
 # Release Names
 
-This document tracks the release names used for {detail}. Each release is assigned a unique cheese-themed codename following the pattern of `adjective-cheese`.
+This document tracks release names. Each release is assigned a unique cheese-themed codename following the pattern of `adjective-cheese`.
 
 ## Release Name Registry
 
