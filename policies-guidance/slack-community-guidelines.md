@@ -98,12 +98,12 @@ We welcome suggestions for new custom emojis that can celebrate and support our 
 
 
 
-## **🛡 Reporting Issues**
+## **🛡 Reporting Issues & Escalation**
 
 If you see or experience behavior that violates these guidelines or the FAIR Code of Conduct:
 
-* Use Slack’s **More actions** menu ("...") on any message to select **Report message**.
-* You can also reach out directly to a Slack admin.
+* Please use the ```/report-behavior command```. This will notify our slack moderators. 
+* If you have a problem involving an administrator, please reach out to a different listed administrator or send an email to the Manager of LF Projects (manager@lfprojects.org).
 * Your reports help us maintain a safe, inclusive, and welcoming environment.
 
 
@@ -118,15 +118,6 @@ FAIR Slack admins help maintain community safety, manage workspace settings, and
 
 
 
-## **⬆️ Escalating and Reporting a Problem**
-
-If a problem is not addressed promptly:
-
-* Please use the ```/report-behavior command```. This will notify our slack moderators. 
-* If you have a problem involving an administrator, please reach out to a different listed administrator or send an email to the Manager of LF Projects (manager@lfprojects.org).
-
-
-
 ## **⚖️ Consequences of Violations**
 
 Depending on the severity, moderators may take the following actions:
@@ -134,7 +125,6 @@ Depending on the severity, moderators may take the following actions:
 * A private warning and discussion.
 * Temporary suspension from Slack (e.g., 30 days).
 * Permanent removal from the workspace.
-
 
 
 ## **🌟 Our Shared Responsibility**
