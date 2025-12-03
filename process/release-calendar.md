@@ -5,13 +5,13 @@ The FAIR project follows a structured release cadence with three 16-week milesto
 
 ## Key Terms
 - **MC** = Milestone Cycle (16 weeks each)
-- **RC** = Release Cycle (8 weeks each, 2 per milestone)
+- **Cycle** = Release Cycle (8 weeks each, 2 per milestone)
 - **Weeks** = ISO-8601 week numbers
 
 ## Structure
 Each Milestone Cycle contains:
 - Two 8-week Release Cycles
-- Sprint phases: Development → Alpha → Beta (Feature Freeze) → RC → Release
+- Sprint phases: Development → Alpha → Beta (Feature Freeze) → Cycle → Release
 - 6-day buffer after Tuesday releases
 
 ```mermaid
@@ -22,23 +22,23 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b %d
     
-    section MC1
-    MC1 (Jan 5 - May 3)     :mc1, 2026-01-05, 2026-05-03
-    RC1 (Jan 5 - Mar 1)      :rc1_1, 2026-01-05, 2026-03-01
-    RC2 (Mar 2 - May 3)    :rc1_2, 2026-03-02, 2026-05-03
+section MC1
+    MC1 (Jan 5 - Apr 26)     :mc1, 2026-01-05, 2026-04-26
+    Cycle1 (Jan 5 - Mar 1)      :Cycle1_1, 2026-01-05, 2026-03-01
+    Cycle2 (Mar 2 - Apr 26)     :Cycle1_2, 2026-03-02, 2026-04-26
     
     section MC2
-    MC2 (May 4 - Aug 23)   :mc2, 2026-05-04, 2026-08-23
-    RC1 (May 4 - Jun 28)   :rc2_1, 2026-05-04, 2026-06-28
-    RC2 (Jun 29 - Aug 23)  :rc2_2, 2026-06-29, 2026-08-23
+    MC2 (Apr 27 - Aug 16)    :mc2, 2026-04-27, 2026-08-16
+    Cycle1 (Apr 27 - Jun 21)    :Cycle2_1, 2026-04-27, 2026-06-21
+    Cycle2 (Jun 22 - Aug 16)    :Cycle2_2, 2026-06-22, 2026-08-16
     
     section MC3
-    MC3 (Aug 24 - Nov 29)  :mc3, 2026-08-24, 2026-11-29
-    RC1 (Aug 24 - Oct 18)  :rc3_1, 2026-08-24, 2026-10-18
-    RC2 (Oct 19 - Nov 29)  :rc3_2, 2026-10-19, 2026-11-29
+    MC3 (Aug 17 - Dec 6)     :mc3, 2026-08-17, 2026-12-06
+    Cycle1 (Aug 17 - Oct 11)    :Cycle3_1, 2026-08-17, 2026-10-11
+    Cycle2 (Oct 12 - Dec 6)     :Cycle3_2, 2026-10-12, 2026-12-06
     
     section Reset Period
-    Reset (Nov 30 - Dec 27) :reset, 2026-11-30, 2026-12-27
+    Reset (Dec 7 - Jan 3)   :reset, 2026-12-07, 2027-01-03
 ```
 ## FAIR Release Cycle - Sprint & Phase Structure (8 Weeks)
 
@@ -57,9 +57,9 @@ flowchart LR
     
     Test --> Alpha[Week 5: Alpha<br/>Testing]
     Alpha --> Beta[Week 6: Beta<br/>Feature Freeze]
-    Beta --> RC[Week 7: RC<br/>Release Checklist]
+    Beta --> Cycle[Week 7: Cycle<br/>Release Checklist]
     
-    RC --> Release[Week 8: Tuesday Release<br/>+ 6-Day Buffer]
+    Cycle --> Release[Week 8: Tuesday Release<br/>+ 6-Day Buffer]
     Release --> End([Cycle Complete])
     
     style Dev fill:#e1f5ff
@@ -69,17 +69,18 @@ flowchart LR
 
 ## 2026 Milestone Cycles
 
-### MC1: January 5 - May 3 (ISO Weeks 2-18)
-- **RC1**: January 5 - March 1 (Weeks 2-9)
-- **RC2**: March 2 - May 3 (Weeks 10-18)
+### MC1: January 5 - April 26 (ISO Weeks 2-17)
+- **Cycle1**: January 5 - March 1 (Weeks 2-9)
+- **Cycle2**: March 2 - April 26 (Weeks 10-17)
 
-### MC2: May 4 - August 23 (ISO Weeks 19-34)
-- **RC1**: May 4 - June 28 (Weeks 19-26)
-- **RC2**: June 29 - August 23 (Weeks 27-34)
+### MC2: April 27 - August 16 (ISO Weeks 18-33)
+- **Cycle1**: April 27 - June 21 (Weeks 18-25)
+- **Cycle2**: June 22 - August 16 (Weeks 26-33)
 
-### MC3: August 24 - November 29 (ISO Weeks 35-48)
-- **RC1**: August 24 - October 18 (Weeks 35-42)
-- **RC2**: October 19 - November 29 (Weeks 43-48)
+### MC3: August 17 - December 6 (ISO Weeks 34-49)
+- **Cycle1**: August 17 - October 11 (Weeks 34-41)
+- **Cycle2**: October 12 - December 6 (Weeks 42-49)
 
-### Reset Period: November 30 - December 27 (ISO Weeks 49-52)
+### Reset Period: December 7 - January 3, 2027 (ISO Weeks 50-53)
 - 4-week break for planning, infrastructure updates, and team downtime
+
