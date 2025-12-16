@@ -6,8 +6,8 @@ We’re happy that you’re here and that you’d like to contribute to the proj
 
 ## 📌 Step 1: Read the Contribution Guidelines
 
-Start by reading our [main guide for contributors](/../contributing.md).
-This document outlines the code of conduct, the TSC structure, governance and voting, code signing, and other stuff you should know about the project. Before getting involved, it’s important that you read through our [Code of Conduct](/../code-of-conduct.md) as all contributors agree to follow it.
+Start by reading our [main guide for contributors](contributing.md).
+This document outlines the code of conduct, the TSC structure, governance and voting, code signing, and other stuff you should know about the project. Before getting involved, it’s important that you read through our [Code of Conduct](code-of-conduct.md) as all contributors agree to follow it.
 
 ---
 
