@@ -2,7 +2,7 @@
 
 The FAIR project follows a structured release cadence with three 16-week milestone cycles per year, followed by a 4-week reset period. The purpose of these named milestone releases is to help coordinate the many projects and working groups within FAIR, allowing FAIR's TSC to set major themes or objectives for each milestone, and have each WG and software project under its banner work toward those common goals.
 
-An 8-week cadence for release cycles is shown below as a typical but not mandated schedule. FAIR maintains multiple software projects to meet its objectives, and not all will follow this cadence, with some perhaps doing only one release per milestone, and others potentially more, particularly where smaller changes are deployed. These releases are generally indicated by version numbering, with semantic versioning recommended. Following FAIR's "Version 1.0" milestone, version numbers are not intended to remain synchronized between different software projects. An 8-week cadence for release cycles is intended as a typical but not mandated schedule. FAIR maintains multiple software projects to meet its objectives. Working groups responsible for each software release will adopt an appropriate cadence for the project that includes at lease one release per milestone. For example, AspireCloud follows a release-when-ready model, with small changes released often and larger ones on a planned schedule toward a named release.
+An 8-week cadence for release cycles is shown below as a typical but not mandated schedule (FAIR Connect follows this cadence). FAIR maintains multiple software projects to meet its objectives, and not all will follow this cadence, with some perhaps doing only one release per milestone, and others potentially more, particularly where smaller changes are deployed. These releases are generally indicated by version numbering, with semantic versioning recommended. Following FAIR's "Version 1.0" milestone, version numbers are not intended to remain synchronized between different software projects. An 8-week cadence for release cycles is intended as a typical but not mandated schedule. FAIR maintains multiple software projects to meet its objectives. Working groups responsible for each software release will adopt an appropriate cadence for the project that includes at lease one release per milestone. For example, AspireCloud follows a release-when-ready model, with small changes released often and larger ones on a planned schedule toward a named release.
 
 ## Overview
 The FAIR project follows a structured release cadence with three 16-week milestone cycles per year, followed by a 4-week reset period. The cadence for these milestones follows a formula based on ISO-8601 week numbers which ensures a "reset" period always begins in December and ends in early January.
@@ -14,9 +14,11 @@ The FAIR project follows a structured release cadence with three 16-week milesto
 
 ## Structure
 Each Milestone Cycle contains:
-- Two 8-week Release Cycles
+- Two 8-week Release Cycles, each beginning on a Monday
 - Sprint phases: Development → Alpha → Beta (Feature Freeze) → Cycle → Release
-- 6-day buffer after Tuesday releases
+- Release dates fall within the 8-week schedule.
+
+For example, FAIR Connect targets Tuesdays as release days, creating a 6-day buffer between a Tuesday release and the start of the next release cycle on the following Monday. The buffer is intended to allow releases to "slip" a day or two without disrupting the schedule. Retrospectives and planning time can be inserted here as well. Allowing a week for a week of testing a release candidate and preparing release materials means the actual development time allotted to a release is 6 weeks.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
