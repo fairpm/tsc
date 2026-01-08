@@ -11,6 +11,7 @@ This folder contains the policies and procedures The FAIR Package Manager TSC us
 ## Roles & Responsibilities
 
 ## Release Management
+- [Release Branching Strategy](./release-branching-strategy.md)
 - [Release Names](./release-names.md)
 
 ## Election Process
