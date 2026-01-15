@@ -56,7 +56,7 @@ flowchart LR
 ```mermaid
 gitGraph
     commit id: "v1.0.0"
-    checkout develop
+    branch develop
     commit id: "feature A"
     commit id: "feature B"
     commit id: "bug fix"
