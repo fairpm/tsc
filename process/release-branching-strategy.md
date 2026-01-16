@@ -12,18 +12,6 @@ This document defines the branching strategy used for FAIR project releases.
 
 ## Release Branch Workflow
 
-### Overview
-
-```mermaid
-flowchart LR
-    A[Create delete] --> B[Development & PRs]
-    B --> C[Testing & Validation]
-    C --> D[Merge to main]
-    D --> E[Automated release & deployment]
-    E --> F[Next release cycle]
-    F --> A
-```
-
 ### Workflow Steps
 
 1. **Create Develop Branches**
