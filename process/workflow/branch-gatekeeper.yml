@@ -1,0 +1,43 @@
+name: Branch Gatekeeper
+
+on:
+  pull_request:
+    types: [opened, edited, synchronized]
+
+jobs:
+  enforce-strategy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Branch Routing
+        run: |
+          DEST_BRANCH=${{ github.base_ref }}
+          SOURCE_BRANCH=${{ github.head_ref }}
+
+          echo "Target branch: $DEST_BRANCH"
+          echo "Source branch: $SOURCE_BRANCH"
+
+          # 1. Only allow release branches or hotfix branches to merge into MAIN
+          if [[ "$DEST_BRANCH" == "main" ]]; then
+            if [[ ! "$SOURCE_BRANCH" =~ ^release/.* ]] && [[ ! "$SOURCE_BRANCH" =~ ^hotfix/.* ]]; then
+              echo "❌ ERROR: Only 'release/*' or 'hotfix/*' branches can be merged into main."
+              exit 1
+            fi
+          fi
+
+          # 2. Only allow release branches or main to merge into DEVELOPMENT
+          if [[ "$DEST_BRANCH" == "development" ]]; then
+            if [[ ! "$SOURCE_BRANCH" =~ ^release/.* ]] && [[ "$SOURCE_BRANCH" != "main" ]]; then
+              echo "❌ ERROR: Only 'release/*' branches or 'main' can be merged into development."
+              exit 1
+            fi
+          fi
+
+          # 3. Prevent developers from targeting release branches with anything other than features/fixes
+          if [[ "$DEST_BRANCH" =~ ^release/.* ]]; then
+            if [[ "$SOURCE_BRANCH" == "main" ]] || [[ "$SOURCE_BRANCH" == "development" ]]; then
+              echo "❌ ERROR: You cannot merge main or development back into a release branch."
+              exit 1
+            fi
+          fi
+
+          echo "✅ Branch routing is valid."
