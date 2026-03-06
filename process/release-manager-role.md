@@ -144,6 +144,8 @@ The Release Manager needs access to:
 - CI/CD system administrative access
 - Issue tracker for creating milestones and tracking items
 
+Not all access needs to be held personally. Infrastructure tasks such as cache flushing may be performed by a delegate (e.g., a DevOps or site administrator) at the Release Manager's coordination. The Release Manager is accountable for ensuring these steps happen, not necessarily for having the credentials themselves.
+
 ## Time Commitment
 
 - **Planning phase:** 5-10 hours for scope definition and scheduling
