@@ -1,0 +1,62 @@
+name: Post-Release Sync & Changelog
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  tag-and-sync:
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract Version
+        id: get_version
+        run: |
+          VERSION=${GITHUB_HEAD_REF#release/}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Update Changelog
+        run: |
+          # 1. Capture the log between the last tag and current HEAD
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$LAST_TAG" ]; then
+            # If no tags exist, get all commits
+            LOG=$(git log --pretty=format:"* %s (%h)")
+          else
+            LOG=$(git log $LAST_TAG..HEAD --pretty=format:"* %s (%h)")
+          fi
+
+          # 2. Create the new entry
+          NEW_ENTRY="## [${{ steps.get_version.outputs.version }}] - ${{ steps.get_version.outputs.date }}\n\n$LOG\n"
+
+          # 3. Prepend to CHANGELOG.md (if it doesn't exist, create it)
+          touch CHANGELOG.md
+          echo -e "$NEW_ENTRY\n$(cat CHANGELOG.md)" > CHANGELOG.md
+
+          # 4. Commit the change back to main
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git commit -m "docs: update CHANGELOG.md for v${{ steps.get_version.outputs.version }}"
+          git push origin main
+
+      - name: Create Tag
+        run: |
+          git tag v${{ steps.get_version.outputs.version }}
+          git push origin v${{ steps.get_version.outputs.version }}
+
+      - name: Sync Main back to Development
+        run: |
+          git checkout development
+          git merge origin/main
+          git push origin development
