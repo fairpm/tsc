@@ -12,23 +12,19 @@ We use Github issues and discussions to request and discuss agenda items:
 * [GitHub Issues](https://github.com/fairpm/tsc/issues)
 * [Discussions](https://github.com/orgs/fairpm/discussions)
 
-If you need support in any part of the process, please ping the TSC in Slack.
+If you need support in any part of the process, please use the #tsc channel in Slack.
 
 ## Meetings
 
-Meetings are held weekly.
+Technical meetings are held weekly on Tuesdays. General meetings are held on the third Thursday of each month.
 
 * [Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/fair-package-manager?view=month)
 
 ## TSC Members
 
-| Name             | Position   | Email                          | Organization  | Term                         |
-| ---------------- | :--------: | ------------------------------ | ------------- | -----------------------------|
-| Carrie Dils      | Co-Chair   | `fair@carriedils.com`          | [TBD]         | March 31 2025 - June 2025    |
-| Mika Epstein     | Co-Chair   | `fair@ipstenu.org`             | [TBD]         | March 31 2025 - June 2025    |
-| Ryan McCue       | Co-Chair   | `fair@rmccue.io`               | [TBD]         | March 31 2025 - June 2025    |
+For a complete list of current members, see [Organizers](organizers.md).
 
-For a complete list, see [Organizers](organizers.md)
+To see a list of previous members, see [Emeritus TSC Members](EMERITUS.md).
 
 ## Charter
 
